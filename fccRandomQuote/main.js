@@ -31,10 +31,10 @@ $(document).ready(function() {
 	function changeColor(){
 		randomNum = Math.floor((Math.random()*colors.length));
 		randomColor = colors[randomNum];
-		console.log(randomColor);
 		$('.changeBg').css('background-color', randomColor);
 		$('.changeTx').css('color', randomColor);
 	}
+
 	getQuote();
 	changeColor();
 
