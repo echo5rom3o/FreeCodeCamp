@@ -9,19 +9,21 @@
 	<body class="changeBg">
 		<div class="container">
 			<div class="box">
-				<div class="quote">
-					<span class="mr-2 float-left changeTx"><i class="fas fa-quote-left"></i></span>
-					<p class="changeTx" id="quoteBlock"></p>
-				</div>
-				<div class="author">
-					 <p class="float-right changeTx" id="authorBlock"></p>
-				</div>
-				<div class="buttons">
-					<div class="next float-right mr-5">
-						<button class="btn changeBg" id="nextQuote" style="color:white;">Next</button>
+				<div class="wrapper">
+					<div class="buttons d-inline-block mt-5">
+						<div class="social">
+							<a href="#" class="btn changeBg mr-4 float-left" id="tweet" style="color:white;"><i class="fab fa-twitter"></i></a>
+						</div>
+						<div class="next">
+							<button class="btn changeBg float-left" id="nextQuote" style="color:white;">Next</button>
+						</div>
 					</div>
-					<div class="social float-right mr-4">
-						<a href="#"class="btn changeBg" id="tweet" style="color:white;"><i class="fab fa-twitter"></i></a>
+					<div class="quote d-block mx-auto mt-4">
+						<span class="mr-2 float-left changeTx"><i class="fas fa-quote-left"></i></span>
+						<p class="changeTx" id="quoteBlock"></p>
+					</div>
+					<div class="author d-inline-block mx-auto mb-5">
+						 <p class="changeTx mr-5" id="authorBlock"></p>
 					</div>
 				</div>
 			</div>
