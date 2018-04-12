@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #282828;
+	color: white;
+	text-align: center;
+}
+.inputDisplay {
+	width: 300px;
+}
+.display {
+	width: auto;
+	height: auto;
+}
+.display p{
+	font-size: 1.2em
+}
+.diplay span{
+}
